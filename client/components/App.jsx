@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Header from "./Header";
+import Timeline from './Timeline';
 import Map from "./Map";
 import Footer from "./Footer";
 
@@ -10,6 +11,7 @@ const App = () => {
       <React.Fragment>
         <main role="main" className="container">
           <Header /> 
+          <Timeline />
           <Map />          
         </main>
         <Footer />

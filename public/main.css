@@ -30,6 +30,9 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+.timeline-container{
+    color:rgb(99, 95, 89);
+}
 a.lightlink{
     color:rgb(247, 182, 86);
     font-size: 1.2em
