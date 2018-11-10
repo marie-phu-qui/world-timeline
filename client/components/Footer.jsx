@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="footer" >
         <div className="container">
           <span className="text-muted" >
-          This boilerplate is brougth to you by 
+          This app is brougth to you by 
           <a href='https://github.com/marie-phu-qui' className='lightlink'> Marie Nguyen Phu Qui </a>.
           </span>
         </div>
