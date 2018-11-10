@@ -8,6 +8,7 @@ import Footer from '../../client/components/Footer';
 describe('<Footer />', () => {
     test('renders Footer component without crashing', () => {
         const wrapper = shallow(<Footer/>)
+        expect(wrapper).toHaveLength(1)
     });
     test('contains a link to my github', () => {
         const expected = 'https://github.com/marie-phu-qui';

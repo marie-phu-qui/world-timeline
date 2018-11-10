@@ -19,12 +19,24 @@ body {
     min-height: 2hv;
     max-height: 10vh; /* Set the fixed height of the footer here */
     line-height: 5vh; /* Vertically center the text there */
-    background-color: pink;
+    background-color: rgba(247, 182, 86, 0.326);
     font-size: 0.9em;
     padding: 0.5em
 }
-
+.container {
+    width: 100%;
+    padding-right: 0.1vw;
+    padding-left: 0.1vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+.timeline-container{
+    color:rgb(99, 95, 89);
+}
 a.lightlink{
-    color:#F5F5F5;
+    color:rgb(247, 182, 86);
     font-size: 1.2em
+}
+#world-map{
+    min-width: 300px;
 }
