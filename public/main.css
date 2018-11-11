@@ -30,7 +30,7 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-.timeline-container{
+.events-container, .timeline-container{
     color:rgb(99, 95, 89);
 }
 a.lightlink{
