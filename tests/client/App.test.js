@@ -11,8 +11,8 @@ describe('<App />', () => {
         const wrapper = shallow(<App/>)
         expect(wrapper).toHaveLength(1)
     });
-    test('contains all : <Header /><Timeline /><Map /><Footer />" components', () => {
-        const expected = '<Header /><Timeline /><Map /><Footer />';
+    test('contains all : <Header /><Timeline /><Map /><Events /><Footer />" components', () => {
+        const expected = '<Header /><Timeline /><Map /><Events /><Footer />';
         const wrapper = shallow(<App />);
         expect(wrapper.text()).toMatch(expected);
     });
