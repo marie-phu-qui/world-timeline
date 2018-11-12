@@ -44,10 +44,10 @@ a.lightlink{
 /* timeline horizontal scroll */
 @media (pointer: coarse) {
     body { 
-        background: crimson 
+        background: rgb(197, 53, 82) 
     }
     body::after{ 
-        content: "Your primary input mechanism is a finger" 
+        content: "Primary input mechanism is a finger" 
     }
     .card::-webkit-scrollbar {
         display: none;
@@ -56,10 +56,10 @@ a.lightlink{
   
   @media (pointer: fine) {
     body { 
-        background: goldenrod }
+        background: rgb(243, 205, 109) }
 
     body::after{ 
-        content: "Your primary input mechanism is a mouse" 
+        content: "Primary input mechanism is a mouse" 
     }
     .card::-webkit-scrollbar-thumb {
         display: initial;
