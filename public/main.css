@@ -1,3 +1,4 @@
+
 html {
     margin: 0;
     /* for sticky footer */
@@ -40,3 +41,42 @@ a.lightlink{
 #world-map{
     min-width: 300px;
 }
+/* timeline horizontal scroll */
+.timeline-container{
+  width: 100%;
+  height: 100%;
+}
+.scroll-container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+    display: flex;
+    min-width: 100%;
+    min-height: 3em;
+    max-height: 9vh;
+    overflow-x: auto;
+    flex-direction:row;
+    color:rgb(252, 248, 241);
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+  .card--content {
+    min-width: 3em;
+    max-width: 3vw;
+    min-height: 2em;
+    max-height: 5vh;
+    margin: .7vw;
+    justify-content: center;
+    padding: 0.1em;
+    box-shadow: 3px 5px rgba(255,255,255,0.05);
+  }
+  .card--content.BCE{
+    background-color: #e74c3c;
+  }
+  .card--content.CE{
+    background-color: #6f3ce7;
+  }
+/* timeline horizontal scroll */
