@@ -5,8 +5,9 @@ const db = require('../db/db')
 router.get('/', (req, res) => {
   db.getArticles()
     .then(events => {
+      console.log(events)
       let event = events[0]
-      res.json(event.title)
+      return res.json(event.title)
     })
     .catch(err => {
         console.log(err)
