@@ -78,7 +78,7 @@ a.lightlink{
 .card {
     display: flex;
     min-width: 100%;
-    min-height: 3em;
+    min-height: 6em;
     max-height: 9vh;
     overflow-x: auto;
     flex-direction:row;
@@ -89,7 +89,7 @@ a.lightlink{
   .card--content {
     min-width: 3em;
     max-width: 3vw;
-    min-height: 2em;
+    min-height: 3em;
     max-height: 5vh;
     margin: .7vw;
     justify-content: center;
