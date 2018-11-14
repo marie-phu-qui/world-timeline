@@ -42,6 +42,29 @@ a.lightlink{
     min-width: 300px;
 }
 /* timeline horizontal scroll */
+@media (pointer: coarse) {
+    body { 
+        background: rgb(197, 53, 82) 
+    }
+    body::after{ 
+        content: "Primary input mechanism is a finger" 
+    }
+    .card::-webkit-scrollbar {
+        display: none;
+      }  
+  }
+  
+  @media (pointer: fine) {
+    body { 
+        background: rgb(243, 205, 109) }
+
+    body::after{ 
+        content: "Primary input mechanism is a mouse" 
+    }
+    .card::-webkit-scrollbar-thumb {
+        display: initial;
+      }  
+  }
 .timeline-container{
   width: 100%;
   height: 100%;
@@ -55,7 +78,7 @@ a.lightlink{
 .card {
     display: flex;
     min-width: 100%;
-    min-height: 3em;
+    min-height: 6em;
     max-height: 9vh;
     overflow-x: auto;
     flex-direction:row;
@@ -66,7 +89,7 @@ a.lightlink{
   .card--content {
     min-width: 3em;
     max-width: 3vw;
-    min-height: 2em;
+    min-height: 3em;
     max-height: 5vh;
     margin: .7vw;
     justify-content: center;
